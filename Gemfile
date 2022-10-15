@@ -14,6 +14,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Auth
 gem 'devise_token_auth', '~> 1.2', '>= 1.2.1'
 
+# Cors
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
+
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
