@@ -19,6 +19,9 @@ gem 'devise_token_auth', '~> 1.2', '>= 1.2.1'
 # Cors
 gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
+# Rendering
+gem 'active_model_serializers', '~> 0.10.13'
+
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '~> 6.2'
