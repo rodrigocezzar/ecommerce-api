@@ -19,4 +19,16 @@ RSpec.describe 'Admin::V1::Categories', type: :request do
       expect(response).to have_http_status(:ok)
     end
   end
+
+  context 'POST /categories' do
+    let(:url) { '/admin/v1/categories' }
+
+    context 'with valid params' do
+      let(:category_params) { attributes_for(:category).to_json }
+    end
+
+    context 'with invalid params' do
+
+    end
+  end
 end
